@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novotia Labs // Engineering the Unimagined</title>
+  <meta name="description" content="Novotia Labs is an elite technology studio exploring the frontiers of Web3, blockchain architectures, mobile applications, and software engineering.">
+  <meta name="keywords" content="Novotia Labs, Web3, Blockchain, Mobile Apps, Software Engineering, AI, Three.js, Deep Space">
+  <meta name="author" content="Novotia Labs">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Novotia Labs // Engineering the Unimagined">
+  <meta property="og:description" content="We don't follow the future. We engineer what comes next.">
+  <meta property="og:image" content="/assets/brand/novotia-social-preview.jpg">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Novotia Labs // Engineering the Unimagined">
+  <meta property="twitter:description" content="We don't follow the future. We engineer what comes next.">
+  <meta property="twitter:image" content="/assets/brand/novotia-social-preview.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#05060A">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Fullscreen 3D WebGL Canvas Layer -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Static Fallback for No-WebGL environments -->
+  <div id="cosmic-fallback" class="cosmic-fallback"></div>
+
+  <!-- Cybernetic Grid & Scanline Atmosphere -->
+  <div class="grid-overlay"></div>
+  <div class="scanline"></div>
+
+  <!-- Main Application Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand-badge" id="brand-nav-logo">
+        <img src="/assets/brand/novotia-monogram.svg" alt="Novotia Labs Emblem" class="brand-logo-img">
+        <span class="brand-title">NOVOTIA LABS</span>
+      </a>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#capabilities" class="nav-link">Dimensions</a>
+        <a href="#philosophy" class="nav-link">Code</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#technology" class="nav-link">Matrix</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Procedural Web Audio Ambient Synth Toggle -->
+        <button id="audio-toggle-btn" class="audio-btn" aria-label="Toggle Cosmic Audio Resonance" title="Toggle Ambient Audio">
+          <span class="audio-indicator"></span>
+          <span id="audio-btn-label">AUDIO: OFF</span>
+        </button>
+
+        <a href="#contact" class="btn-primary" id="header-contact-btn">INITIATE</a>
+
+        <button class="mobile-toggle" id="mobile-menu-btn" aria-label="Toggle Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Structure -->
+  <main class="app-container">
+
+    <!-- 00 // HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <div class="status-beacon">
+          <span class="status-dot"></span>
+          <span>SYSTEM ONLINE // NOVOTIA LABS 4.0</span>
+        </div>
+
+        <h1 class="hero-title">
+          ENGINEERING THE <br/>
+          <span class="gradient-text">UNIMAGINED.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          We don't follow the future. We engineer what comes next. Exploring the boundaries between decentralized systems, mobile architectures, and resilient digital products.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#capabilities" class="btn-primary" id="hero-explore-btn">
+            EXPLORE CAPABILITIES
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://github.com/NovotiaGng" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="hero-github-btn">
+            VIEW REPOSITORIES
+          </a>
+        </div>
+
+        <!-- Telemetry HUD -->
+        <div class="telemetry-bar">
+          <div class="telemetry-item">
+            <span class="telemetry-label">SIGNAL</span>
+            <span class="telemetry-value" id="hud-signal">100% SECURE</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">DIMENSIONS</span>
+            <span class="telemetry-value">03 ACTIVE</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">CORE ENGINE</span>
+            <span class="telemetry-value">THREE.JS / WEBGL</span>
+          </div>
+          <div class="telemetry-item">
+            <span class="telemetry-label">UTC TELEMETRY</span>
+            <span class="telemetry-value" id="hud-clock">00:00:00 UTC</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01 // ABOUT SECTION -->
+    <section id="about">
+      <div class="section-header">
+        <div class="section-tag">01 // IDENTITY</div>
+        <h2 class="section-title">BEYOND THE KNOWN</h2>
+        <p class="section-desc">Technology should do more than impress. It should solve real problems, empower builders, and unlock possibilities.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-narrative glass-card">
+          <p>
+            <strong>Novotia Labs</strong> is an advanced technology studio operating at the intersection of decentralized infrastructure, mobile applications, and resilient software engineering.
+          </p>
+          <p>
+            We transform complex business and technological challenges into purposeful digital experiences. Every protocol we write, every interface we design, and every architecture we deploy is engineered with surgical intentionality.
+          </p>
+          <div class="about-quote">
+            "Think beyond convention. Engineer with intention. Build beyond the obvious."
+          </div>
+        </div>
+
+        <div class="about-stats-panel">
+          <div class="stat-box glass-card">
+            <div class="stat-icon">◈</div>
+            <div>
+              <div class="stat-number">100%</div>
+              <div class="stat-label">DISCIPLINED ENGINEERING FOCUS</div>
+            </div>
+          </div>
+          <div class="stat-box glass-card">
+            <div class="stat-icon">⟡</div>
+            <div>
+              <div class="stat-number">MULTI-DOMAIN</div>
+              <div class="stat-label">WEB3 · MOBILE · CLOUD PLATFORMS</div>
+            </div>
+          </div>
+          <div class="stat-box glass-card">
+            <div class="stat-icon">⚡</div>
+            <div>
+              <div class="stat-number">PRODUCTION-GRADE</div>
+              <div class="stat-label">SCALABLE & RESILIENT CODEBASES</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 // CAPABILITIES SECTION -->
+    <section id="capabilities">
+      <div class="section-header">
+        <div class="section-tag">02 // ARCHITECTURE</div>
+        <h2 class="section-title">THREE DIMENSIONS</h2>
+        <p class="section-desc">Three specialized engineering practices powered by one unified technological philosophy.</p>
+      </div>
+
+      <div class="dimensions-grid">
+        <!-- Dimension 01 -->
+        <div class="glass-card">
+          <span class="dimension-badge badge-violet">DIMENSION 01</span>
+          <h3 class="dimension-title">Web3 & Blockchain</h3>
+          <p class="dimension-desc">
+            Decentralized protocols and on-chain systems exploring verifiable digital ownership, trustless mechanics, and smart contract orchestration.
+          </p>
+          <div class="dimension-pills">
+            <span class="dimension-pill">SMART CONTRACTS</span>
+            <span class="dimension-pill">ETHEREUM</span>
+            <span class="dimension-pill">DECENTRALIZED APPS</span>
+            <span class="dimension-pill">ON-CHAIN DATA</span>
+          </div>
+        </div>
+
+        <!-- Dimension 02 -->
+        <div class="glass-card">
+          <span class="dimension-badge badge-cyan">DIMENSION 02</span>
+          <h3 class="dimension-title">Mobile Experiences</h3>
+          <p class="dimension-desc">
+            Engineered mobile applications designed to bring sophisticated capabilities to users with fluid performance, native responsiveness, and exceptional craft.
+          </p>
+          <div class="dimension-pills">
+            <span class="dimension-pill">KOTLIN / ANDROID</span>
+            <span class="dimension-pill">iOS ARCHITECTURE</span>
+            <span class="dimension-pill">CROSS-PLATFORM</span>
+            <span class="dimension-pill">FLUID UI/UX</span>
+          </div>
+        </div>
+
+        <!-- Dimension 03 -->
+        <div class="glass-card">
+          <span class="dimension-badge badge-indigo">DIMENSION 03</span>
+          <h3 class="dimension-title">Software Systems</h3>
+          <p class="dimension-desc">
+            Purpose-built enterprise foundations turning intricate business challenges into maintainable, scalable, and cloud-native digital ecosystems.
+          </p>
+          <div class="dimension-pills">
+            <span class="dimension-pill">DISTRIBUTED APIS</span>
+            <span class="dimension-pill">CLOUD INFRASTRUCTURE</span>
+            <span class="dimension-pill">CONTAINER ORCHESTRATION</span>
+            <span class="dimension-pill">SYSTEM ARCHITECTURE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 // PHILOSOPHY SECTION -->
+    <section id="philosophy">
+      <div class="section-header">
+        <div class="section-tag">03 // DIRECTIVES</div>
+        <h2 class="section-title">THE ENGINEERING CODE</h2>
+        <p class="section-desc">Principles over hype. Substance over noise. How we evaluate and execute every problem.</p>
+      </div>
+
+      <div class="philosophy-grid">
+        <div class="directives-list">
+          <div class="directive-item">
+            <span class="directive-num">01</span>
+            <div>
+              <h4 class="directive-name">UNDERSTAND</h4>
+              <p class="directive-desc">Solve the actual problem before selecting the technology. Never rush into abstractions.</p>
+            </div>
+          </div>
+          <div class="directive-item">
+            <span class="directive-num">02</span>
+            <div>
+              <h4 class="directive-name">ENGINEER</h4>
+              <p class="directive-desc">Build with clarity, precision, and purpose. Write code that endures change.</p>
+            </div>
+          </div>
+          <div class="directive-item">
+            <span class="directive-num">03</span>
+            <div>
+              <h4 class="directive-name">EVOLVE</h4>
+              <p class="directive-desc">Design for maintainability, reliability, and continuous architectural growth.</p>
+            </div>
+          </div>
+          <div class="directive-item">
+            <span class="directive-num">04</span>
+            <div>
+              <h4 class="directive-name">INNOVATE</h4>
+              <p class="directive-desc">Explore emerging frontiers when they unlock verifiable, real-world value.</p>
+            </div>
+          </div>
+          <div class="directive-item">
+            <span class="directive-num">05</span>
+            <div>
+              <h4 class="directive-name">DELIVER</h4>
+              <p class="directive-desc">Turn ambitious ideas into impactful digital products that make a difference.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Terminal -->
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="t-dot t-red"></span>
+              <span class="t-dot t-yellow"></span>
+              <span class="t-dot t-green"></span>
+            </div>
+            <span class="terminal-title">novotia@kernel:~/manifesto.sh</span>
+            <span>zsh</span>
+          </div>
+          <div class="terminal-body" id="terminal-content">
+<span class="term-muted"># Initializing Novotia Labs Core Directive</span>
+<span class="term-cyan">$</span> echo "ENGINEERING THE UNIMAGINED"
+ENGINEERING THE UNIMAGINED
+
+<span class="term-cyan">$</span> cat directives.conf
+<span class="term-violet">DIRECTIVE_01:</span> UNDERSTAND_FIRST
+<span class="term-violet">DIRECTIVE_02:</span> PURPOSEFUL_ENGINEERING
+<span class="term-violet">DIRECTIVE_03:</span> SCALABLE_EVOLUTION
+<span class="term-violet">DIRECTIVE_04:</span> MEASURED_INNOVATION
+<span class="term-violet">DIRECTIVE_05:</span> IMPACT_DELIVERY
+
+<span class="term-cyan">$</span> status --all
+<span class="term-cyan">● MESH:</span> ONLINE
+<span class="term-cyan">● PROFILE:</span> VERIFIED
+<span class="term-cyan">● ARCHITECTURE:</span> SYNCHRONIZED
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 // REPOSITORIES SECTION -->
+    <section id="projects">
+      <div class="section-header">
+        <div class="section-tag">04 // CODEBASES</div>
+        <h2 class="section-title">ACTIVE REPOSITORIES</h2>
+        <p class="section-desc">Verified projects and active architectures within the Novotia Labs ecosystem.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- MeshMend Project Card -->
+        <div class="glass-card project-card">
+          <div>
+            <div class="project-header">
+              <span class="project-type">DECENTRALIZED PROTOCOL</span>
+              <span class="project-stars">★ ACTIVE</span>
+            </div>
+            <h3 class="project-title">MeshMend</h3>
+            <p class="project-desc">
+              Autonomous mesh resilience and decentralized node reconnection framework designed for fault-tolerant network topologies and peer-to-peer survivability.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Mesh Networks</span>
+              <span class="project-tag">P2P Protocols</span>
+              <span class="project-tag">Decentralized</span>
+            </div>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/NovotiaGng/MeshMend" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width: 100%;">
+              VIEW REPOSITORY
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- NovotiaGng Organization Profile Card -->
+        <div class="glass-card project-card">
+          <div>
+            <div class="project-header">
+              <span class="project-type">PROFILE ARCHITECTURE</span>
+              <span class="project-stars">★ MAIN</span>
+            </div>
+            <h3 class="project-title">NovotiaGng</h3>
+            <p class="project-desc">
+              The flagship GitHub identity, brand framework, and documentation architecture for Novotia Labs — designed to redefine digital identity in technology.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Brand System</span>
+              <span class="project-tag">Three.js</span>
+              <span class="project-tag">Design System</span>
+            </div>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/NovotiaGng/NovotiaGng" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width: 100%;">
+              VIEW REPOSITORY
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 // TECHNOLOGY MATRIX SECTION -->
+    <section id="technology">
+      <div class="section-header">
+        <div class="section-tag">05 // CAPABILITY RADAR</div>
+        <h2 class="section-title">TECHNOLOGY MATRIX</h2>
+        <p class="section-desc">Our core technical arsenal across runtime languages, frontends, infrastructure, and databases.</p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="glass-card">
+          <h3 class="tech-category-title">01 // LANGUAGES</h3>
+          <div class="tech-items-list">
+            <div class="tech-item"><span class="tech-name">JavaScript / TypeScript</span><span class="tech-badge">CORE</span></div>
+            <div class="tech-item"><span class="tech-name">Python</span><span class="tech-badge">AI / BACKEND</span></div>
+            <div class="tech-item"><span class="tech-name">Kotlin / Java</span><span class="tech-badge">MOBILE</span></div>
+            <div class="tech-item"><span class="tech-name">C / C++ / C#</span><span class="tech-badge">SYSTEMS</span></div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <h3 class="tech-category-title">02 // FRONTEND & 3D</h3>
+          <div class="tech-items-list">
+            <div class="tech-item"><span class="tech-name">React / Next.js</span><span class="tech-badge">WEB APPS</span></div>
+            <div class="tech-item"><span class="tech-name">Three.js / WebGL</span><span class="tech-badge">IMMERSIVE</span></div>
+            <div class="tech-item"><span class="tech-name">Angular</span><span class="tech-badge">ENTERPRISE</span></div>
+            <div class="tech-item"><span class="tech-name">Modern CSS / Design</span><span class="tech-badge">AESTHETICS</span></div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <h3 class="tech-category-title">03 // CLOUD & INFRA</h3>
+          <div class="tech-items-list">
+            <div class="tech-item"><span class="tech-name">Google Cloud / AWS</span><span class="tech-badge">PLATFORMS</span></div>
+            <div class="tech-item"><span class="tech-name">Docker / Linux</span><span class="tech-badge">CONTAINERS</span></div>
+            <div class="tech-item"><span class="tech-name">Cloudflare Edge</span><span class="tech-badge">DISTRIBUTED</span></div>
+            <div class="tech-item"><span class="tech-name">CI/CD Automation</span><span class="tech-badge">PIPELINES</span></div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <h3 class="tech-category-title">04 // DATA & BACKENDS</h3>
+          <div class="tech-items-list">
+            <div class="tech-item"><span class="tech-name">PostgreSQL / Supabase</span><span class="tech-badge">RELATIONAL</span></div>
+            <div class="tech-item"><span class="tech-name">MongoDB / Redis</span><span class="tech-badge">FAST STORE</span></div>
+            <div class="tech-item"><span class="tech-name">Firebase Ecosystem</span><span class="tech-badge">REALTIME</span></div>
+            <div class="tech-item"><span class="tech-name">REST & GraphQL</span><span class="tech-badge">PROTOCOLS</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 // CONTACT SECTION -->
+    <section id="contact">
+      <div class="glass-card contact-card">
+        <div class="section-tag" style="justify-content: center;">06 // INITIATE TRANSMISSION</div>
+        <h2 class="contact-title">THE UNIVERSE IS NOT THE LIMIT.</h2>
+        <p class="contact-desc">
+          Have an ambitious product idea, an intricate technical challenge, or a vision worth engineering? Connect directly with our team.
+        </p>
+
+        <div class="contact-methods">
+          <a href="mailto:novotiaproducts@gmail.com?subject=Transmission%20from%20Explorer" class="btn-primary" id="email-launch-btn">
+            TRANSMIT DIRECT EMAIL
+          </a>
+          <button id="copy-email-btn" class="btn-secondary">
+            COPY ADDRESS: novotiaproducts@gmail.com
+          </button>
+        </div>
+
+        <div class="social-links-bar">
+          <a href="https://github.com/NovotiaGng" target="_blank" rel="noopener noreferrer" class="social-btn">
+            GITHUB
+          </a>
+          <a href="https://www.linkedin.com/in/arnav-puggal/" target="_blank" rel="noopener noreferrer" class="social-btn">
+            LINKEDIN
+          </a>
+          <a href="https://www.instagram.com/arnavpuggal/" target="_blank" rel="noopener noreferrer" class="social-btn">
+            INSTAGRAM
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    COPIED TO CLIPBOARD
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-brand">NOVOTIA LABS</div>
+    <div class="footer-tagline">BUILDING WITH PURPOSE · ENGINEERING FOR IMPACT</div>
+    <div class="footer-copy">© NOVOTIA LABS. THE NEXT FRONTIER IS BUILT, NOT PREDICTED.</div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
