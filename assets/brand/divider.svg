@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 12" fill="none">
+  <defs>
+    <linearGradient id="divider-left" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#0B0D1A" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.8"/>
+      <stop offset="80%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0B0D1A" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="line-glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Central diamond -->
+  <polygon points="400,1 404,6 400,11 396,6" fill="#67E8F9" opacity="0.9" filter="url(#line-glow)"/>
+  <!-- Left beam -->
+  <line x1="50" y1="6" x2="393" y2="6" stroke="url(#divider-left)" stroke-width="0.8" filter="url(#line-glow)"/>
+  <!-- Right beam -->
+  <line x1="407" y1="6" x2="750" y2="6" stroke="url(#divider-left)" stroke-width="0.8" filter="url(#line-glow)"/>
+</svg>
