@@ -1,42 +1,39 @@
 <div align="center">
 
 <!-- ══════════════════════════════════════════════════════════════ -->
-<!-- NOVOTIA LABS · PROFILE README · CINEMATIC EDITION             -->
+<!-- NOVOTIA LABS // OFFICIAL PROFILE ARCHITECTURE                 -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-<!-- ▸ CINEMATIC HERO ──────────────────────────────────────────── -->
+<br/>
 
-<img width="100%" src="./assets/brand/novotia-cosmic-hero.jpg" alt="Novotia Labs — a futuristic cosmic environment with massive obsidian monoliths, chrome orbital rings, metallic geometric forms, and volumetric violet-cyan lighting in deep space"/>
+<!-- ▸ SEAMLESS BRAND HEADER ──────────────────────────────────── -->
+<img width="100%" src="./assets/brand/novotia-header.svg" alt="NOVOTIA LABS — Engineering the Unimagined"/>
 
 <br/>
 
-<!-- ▸ WORDMARK ────────────────────────────────────────────────── -->
-
-<img width="80%" src="./assets/brand/novotia-wordmark.svg" alt="NOVOTIA LABS — Engineering the Unimagined"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2500&pause=800&color=67E8F9&center=true&vCenter=true&width=680&lines=We+don't+follow+the+future.+We+engineer+what+comes+next.;Decentralized.+Intelligent.+Purposeful.;Beyond+the+boundaries+of+conventional+thinking.;The+next+frontier+starts+with+an+idea." alt="Novotia Labs animated tagline"/>
+<!-- ▸ ANIMATED MANIFESTO ─────────────────────────────────────── -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2400&pause=800&color=67E8F9&center=true&vCenter=true&width=720&lines=We+don't+follow+the+future.+We+engineer+what+comes+next.;Decentralized.+Intelligent.+Purposeful.;Beyond+the+boundaries+of+conventional+thinking.;The+next+frontier+starts+with+an+idea." alt="Novotia Labs animated transmission"/>
 
 <br/><br/>
 
+<!-- ▸ TELEMETRY BADGES ───────────────────────────────────────── -->
 <a href="https://github.com/NovotiaGng?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE_REPOSITORIES-0B0B16?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Explore repositories"/>
+<img src="https://img.shields.io/badge/EXPLORE_REPOSITORIES-0d1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Explore Repositories"/>
 </a>&nbsp;&nbsp;
 <a href="mailto:novotiaproducts@gmail.com">
-<img src="https://img.shields.io/badge/INITIATE_CONTACT-17102F?style=for-the-badge&logo=gmail&logoColor=67E8F9" alt="Contact Novotia Labs"/>
+<img src="https://img.shields.io/badge/INITIATE_CONTACT-161b22?style=for-the-badge&logo=gmail&logoColor=67E8F9" alt="Initiate Contact"/>
 </a>
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/WEB3-8B5CF6?style=flat-square" alt="Web3"/>&nbsp;
-<img src="https://img.shields.io/badge/BLOCKCHAIN-17102F?style=flat-square&logo=ethereum&logoColor=67E8F9" alt="Blockchain"/>&nbsp;
-<img src="https://img.shields.io/badge/MOBILE-0B1822?style=flat-square&logo=android&logoColor=67E8F9" alt="Mobile"/>&nbsp;
-<img src="https://img.shields.io/badge/SOFTWARE_ENGINEERING-17102F?style=flat-square&logo=probot&logoColor=C4B5FD" alt="Software Engineering"/>
+<img src="https://img.shields.io/badge/BLOCKCHAIN-161b22?style=flat-square&logo=ethereum&logoColor=67E8F9" alt="Blockchain"/>&nbsp;
+<img src="https://img.shields.io/badge/MOBILE-0d1117?style=flat-square&logo=android&logoColor=67E8F9" alt="Mobile"/>&nbsp;
+<img src="https://img.shields.io/badge/SOFTWARE_ENGINEERING-161b22?style=flat-square&logo=probot&logoColor=C4B5FD" alt="Software Engineering"/>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=NovotiaGng&style=flat-square&color=8B5CF6&label=TRANSMISSIONS+RECEIVED" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=NovotiaGng&style=flat-square&color=8B5CF6&label=TRANSMISSIONS+LOGGED" alt="Profile views"/>
 
 </div>
 
@@ -47,18 +44,12 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- § 01 — BRAND INTRODUCTION                                      -->
+<!-- § 01 — IDENTITY & MISSION                                       -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 ### `⟡ 01` — BEYOND THE KNOWN
-
-<br/>
-
-<img width="50" src="./assets/brand/novotia-monogram.svg" alt="Novotia Labs monogram"/>
-
-<br/><br/>
 
 **We don't follow the future. We engineer what comes next.**
 
@@ -66,9 +57,9 @@
 
 <br/>
 
-**Novotia Labs** is a technology studio exploring the intersections of decentralized systems, mobile experiences, and software engineering. We transform ambitious ideas into purposeful digital products — built with clarity, precision, and intention.
+**Novotia Labs** is a technology studio exploring the boundaries of digital innovation across decentralized architectures, mobile applications, and resilient software systems.
 
-Our work spans **Web3 and blockchain architectures**, **native and cross-platform mobile applications**, and **scalable software systems** designed for real-world impact. We believe technology should do more than impress — it should solve real problems and unlock possibilities that didn't exist before.
+We believe technology should do more than impress — it should solve real problems, empower builders, and unlock possibilities that didn't exist before. We combine ambitious thinking with disciplined engineering to deliver digital experiences designed for real-world impact.
 
 > *Think beyond convention. Engineer with intention. Build beyond the obvious.*
 
@@ -79,14 +70,14 @@ Our work spans **Web3 and blockchain architectures**, **native and cross-platfor
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- § 02 — CAPABILITIES                                            -->
+<!-- § 02 — THREE DIMENSIONS                                         -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 ### `⟡ 02` — OUR DIMENSIONS
 
-*Three domains. One relentless engineering mindset.*
+*Three core disciplines. One relentless engineering mindset.*
 
 </div>
 
@@ -104,9 +95,9 @@ Our work spans **Web3 and blockchain architectures**, **native and cross-platfor
 
 #### Web3 & Blockchain
 
-Decentralized architectures and blockchain-powered applications exploring new models of digital ownership, connectivity, and trust.
+Decentralized architectures and blockchain systems exploring new paradigms of digital ownership, verifiable trust, and connectivity.
 
-<sub>DECENTRALIZED APPS · SMART CONTRACTS · ON-CHAIN SYSTEMS · WEB3 EXPERIENCES</sub>
+<sub>SMART CONTRACTS · ON-CHAIN PROTOCOLS · D-APPS</sub>
 
 <br/>
 
@@ -121,9 +112,9 @@ Decentralized architectures and blockchain-powered applications exploring new mo
 
 #### Mobile Experiences
 
-Thoughtfully engineered mobile products that make technology more intuitive, accessible, and useful in everyday life.
+Thoughtfully engineered mobile applications designed to make technology intuitive, fluid, and indispensable in everyday life.
 
-<sub>ANDROID · iOS · CROSS-PLATFORM · NATIVE PERFORMANCE</sub>
+<sub>ANDROID · iOS · CROSS-PLATFORM ARCHITECTURE</sub>
 
 <br/>
 
@@ -138,9 +129,9 @@ Thoughtfully engineered mobile products that make technology more intuitive, acc
 
 #### Software Systems
 
-Purpose-built software that turns complex business challenges into practical, maintainable, and scalable digital solutions.
+Purpose-built digital systems transforming complex business logic into maintainable, scalable, and resilient software foundations.
 
-<sub>APPLICATION ENGINEERING · BACKEND SYSTEMS · API ARCHITECTURE · CLOUD INFRASTRUCTURE</sub>
+<sub>BACKEND SYSTEMS · DISTRIBUTED APIS · CLOUD INFRA</sub>
 
 <br/>
 
@@ -155,7 +146,7 @@ Purpose-built software that turns complex business challenges into practical, ma
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- § 03 — ENGINEERING PHILOSOPHY                                  -->
+<!-- § 03 — ENGINEERING DIRECTIVES                                  -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -218,7 +209,7 @@ Purpose-built software that turns complex business challenges into practical, ma
 </td>
 <td align="center" width="25%">
 
-**FRONTEND & MOBILE**
+**FRONTEND & 3D**
 
 <img src="https://skillicons.dev/icons?i=react,angular,threejs&theme=dark" alt="React, Angular, Three.js"/><br/>
 <img src="https://skillicons.dev/icons?i=html,css,tailwind&theme=dark" alt="HTML, CSS, Tailwind"/>
@@ -252,25 +243,28 @@ Purpose-built software that turns complex business challenges into practical, ma
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- § 05 — PROJECTS                                                -->
+<!-- § 05 — REPOSITORIES                                            -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 ### `⟡ 05` — ACTIVE REPOSITORIES
 
-*The work speaks through the code.*
+*Real code. Active architecture.*
 
 <br/>
 
 <a href="https://github.com/NovotiaGng/MeshMend">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=NovotiaGng&repo=MeshMend&hide_border=true&bg_color=0B0D1A&title_color=67E8F9&text_color=D4D4E8&icon_color=8B5CF6" alt="MeshMend repository"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=NovotiaGng&repo=MeshMend&hide_border=true&bg_color=0d1117&title_color=67E8F9&text_color=94A3B8&icon_color=8B5CF6" alt="MeshMend repository"/>
+</a>&nbsp;&nbsp;
+<a href="https://github.com/NovotiaGng/NovotiaGng">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=NovotiaGng&repo=NovotiaGng&hide_border=true&bg_color=0d1117&title_color=67E8F9&text_color=94A3B8&icon_color=8B5CF6" alt="NovotiaGng repository"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/NovotiaGng?tab=repositories">
-<img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-0B0D1A?style=for-the-badge&logo=github&logoColor=67E8F9" alt="All repositories"/>
+<img src="https://img.shields.io/badge/ACCESS_ALL_REPOSITORIES-0d1117?style=for-the-badge&logo=github&logoColor=67E8F9" alt="All repositories"/>
 </a>
 
 </div>
@@ -282,7 +276,7 @@ Purpose-built software that turns complex business challenges into practical, ma
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- § 06 — TRANSMISSION LOG                                        -->
+<!-- § 06 — TRANSMISSION LOG & TELEMETRY                            -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -294,19 +288,14 @@ Purpose-built software that turns complex business challenges into practical, ma
 <br/>
 
 <a href="https://github.com/NovotiaGng">
-<img src="https://github-readme-stats.vercel.app/api?username=NovotiaGng&show_icons=true&hide_border=true&bg_color=0B0D1A&title_color=A78BFA&text_color=D4D4E8&icon_color=67E8F9&rank_icon=github" width="49%" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api?username=NovotiaGng&show_icons=true&hide_border=true&bg_color=0d1117&title_color=67E8F9&text_color=94A3B8&icon_color=8B5CF6&rank_icon=github" width="49%" alt="GitHub statistics"/>
 </a><a href="https://github.com/NovotiaGng">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovotiaGng&layout=compact&hide_border=true&bg_color=0B0D1A&title_color=A78BFA&text_color=D4D4E8" width="49%" alt="Language distribution"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovotiaGng&layout=compact&hide_border=true&bg_color=0d1117&title_color=67E8F9&text_color=94A3B8" width="49%" alt="Language distribution"/>
 </a>
 
 <br/><br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=NovotiaGng&hide_border=true&background=0B0D1A&ring=8B5CF6&fire=67E8F9&currStreakLabel=A78BFA&sideLabels=D4D4E8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=77778B" alt="Contribution streak"/>
-
-<br/><br/>
-
-<!-- GitHub Activity Graph -->
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=NovotiaGng&bg_color=0B0D1A&color=D4D4E8&line=8B5CF6&point=67E8F9&area=true&area_color=8B5CF6&hide_border=true&custom_title=CONTRIBUTION%20SIGNAL" alt="Contribution activity"/>
+<img width="72%" src="https://streak-stats.demolab.com?user=NovotiaGng&hide_border=true&background=0d1117&ring=8B5CF6&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=64748B" alt="Contribution streak"/>
 
 </div>
 
@@ -317,7 +306,7 @@ Purpose-built software that turns complex business challenges into practical, ma
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- § 07 — CONTACT                                                 -->
+<!-- § 07 — CONTACT & TRANSMISSION                                  -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -330,33 +319,32 @@ Purpose-built software that turns complex business challenges into practical, ma
 
 Have an ambitious product idea, a complex technical challenge, or a vision worth engineering?
 
-We welcome conversations with founders, builders, and teams ready to create something meaningful.
+We welcome conversations with founders, teams, and builders ready to create something meaningful.
 
 <br/>
 
 <a href="mailto:novotiaproducts@gmail.com">
-<img src="https://img.shields.io/badge/LET'S_BUILD_THE_FUTURE-8B5CF6?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Start a project with Novotia Labs"/>
+<img src="https://img.shields.io/badge/LET%27S_BUILD_THE_FUTURE-8B5CF6?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Start a project with Novotia Labs"/>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/NovotiaGng">
-<img src="https://img.shields.io/badge/GITHUB-0B0B16?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GITHUB-0d1117?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub"/>
 </a>&nbsp;
 <a href="https://www.linkedin.com/in/arnav-puggal/">
-<img src="https://img.shields.io/badge/LINKEDIN-0B0B16?style=flat-square&logo=linkedin&logoColor=67E8F9" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=67E8F9" alt="LinkedIn"/>
 </a>&nbsp;
 <a href="https://www.instagram.com/arnavpuggal/">
-<img src="https://img.shields.io/badge/INSTAGRAM-0B0B16?style=flat-square&logo=instagram&logoColor=E879F9" alt="Instagram"/>
+<img src="https://img.shields.io/badge/INSTAGRAM-0d1117?style=flat-square&logo=instagram&logoColor=E879F9" alt="Instagram"/>
 </a>&nbsp;
 <a href="mailto:novotiaproducts@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-0B0B16?style=flat-square&logo=gmail&logoColor=67E8F9" alt="Email"/>
+<img src="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=67E8F9" alt="Email"/>
 </a>
 
 <br/><br/>
 
+<!-- ▸ SEAMLESS FOOTER ────────────────────────────────────────── -->
+<img width="100%" src="./assets/brand/footer.svg" alt="Novotia Labs Footer"/>
+
 </div>
-
-<!-- ▸ CINEMATIC FOOTER ────────────────────────────────────────── -->
-
-<img width="100%" src="./assets/brand/footer.svg" alt="© Novotia Labs — Engineering the Unimagined"/>
