@@ -1,29 +1,36 @@
-<!--
-    NOVOTIA LABS — FUTURE-FORWARD GITHUB PROFILE
-    Replace or customize the external graphic URLs if desired.
--->
+ <div align="center">
 
-<div align="center">
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- NOVOTIA LABS // INFINITY EDITION                        -->
+<!-- ═══════════════════════════════════════════════════════ -->
 
-<a href="https://github.com/NovotiaGng">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:05060B,35:17102F,70:4326A8,100:00D9FF&text=NOVOTIA%20LABS&fontColor=FFFFFF&fontSize=56&fontAlignY=42&desc=ENGINEERING%20THE%20UNIMAGINED&descSize=16&descAlignY=62&animation=fadeIn&stroke=8B5CF6&strokeWidth=1" alt="Novotia Labs — Engineering the Unimagined"/>
-</a>
+<img width="100%" src="./assets/novotia-cosmic.png" alt="Novotia Labs — futuristic cosmic universe"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2600&pause=900&color=67E8F9&center=true&vCenter=true&width=720&lines=WE+DON%27T+FOLLOW+THE+FUTURE.;WE+ENGINEER+WHAT+COMES+NEXT.;PURPOSEFUL+CODE.+LIMITLESS+POSSIBILITY.;BUILDING+BEYOND+THE+OBVIOUS." alt="Animated Novotia Labs tagline"/>
+<img width="90%" src="https://capsule-render.vercel.app/api?type=transparent&height=155&text=NOVOTIA%20LABS&fontSize=65&fontColor=FFFFFF&fontAlignY=45&desc=ENGINEERING%20THE%20UNIMAGINED&descSize=16&descColor=67E8F9&descAlignY=75&animation=fadeIn" alt="NOVOTIA LABS — Engineering the Unimagined"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2200&pause=700&color=67E8F9&center=true&vCenter=true&width=850&lines=WE+ENGINEER+WHAT+COMES+NEXT.;BEYOND+THE+BOUNDARIES+OF+CONVENTIONAL+THINKING.;DECENTRALIZED.+INTELLIGENT.+PURPOSEFUL.;THE+NEXT+FRONTIER+STARTS+WITH+AN+IDEA." alt="Animated Novotia Labs manifesto"/>
 
 <br/><br/>
 
-[![Explore GitHub](https://img.shields.io/badge/EXPLORE_THE_CODE-0A0A12?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/NovotiaGng)
-[![Get in Touch](https://img.shields.io/badge/INITIATE_CONTACT-17102F?style=for-the-badge&logo=gmail&logoColor=67E8F9)](mailto:novotiaproducts@gmail.com)
+<a href="https://github.com/NovotiaGng?tab=repositories">
+<img src="https://img.shields.io/badge/EXPLORE_THE_MULTIVERSE-0B0B16?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Explore repositories"/>
+</a>
+<a href="mailto:novotiaproducts@gmail.com">
+<img src="https://img.shields.io/badge/INITIATE_CONTACT-241044?style=for-the-badge&logo=gmail&logoColor=67E8F9" alt="Contact Novotia Labs"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/WEB3-8B5CF6?style=flat-square" alt="Web3"/>
+<img src="https://img.shields.io/badge/BLOCKCHAIN-17102F?style=flat-square&logo=ethereum&logoColor=67E8F9" alt="Blockchain"/>
+<img src="https://img.shields.io/badge/MOBILE-0B1822?style=flat-square&logo=android&logoColor=67E8F9" alt="Mobile"/>
+<img src="https://img.shields.io/badge/SOFTWARE_ENGINEERING-17102F?style=flat-square&logo=probot&logoColor=C4B5FD" alt="Software engineering"/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/WEB3-8B5CF6?style=flat-square&logo=ethereum&logoColor=white" alt="Web3"/>
-<img src="https://img.shields.io/badge/BLOCKCHAIN-17102F?style=flat-square&logo=bitcoin&logoColor=67E8F9" alt="Blockchain"/>
-<img src="https://img.shields.io/badge/MOBILE-0A0A12?style=flat-square&logo=android&logoColor=67E8F9" alt="Mobile development"/>
-<img src="https://img.shields.io/badge/ENGINEERING-17102F?style=flat-square&logo=probot&logoColor=FFFFFF" alt="Engineering"/>
+<img src="https://komarev.com/ghpvc/?username=NovotiaGng&style=flat-square&color=8B5CF6&label=PROFILE+VISITS" alt="Profile visits"/>
 
 </div>
 
@@ -31,89 +38,71 @@
 
 <div align="center">
 
-## `01 / THE VISION`
+## ⟡ 01 — BEYOND THE KNOWN
 
-### Technology is the medium. **Impact is the objective.**
+### We don't follow the future. We engineer what comes next.
 
 </div>
 
-Novotia Labs is a technology-driven studio focused on transforming meaningful problems into purposeful digital products.
+**Novotia Labs** is a technology-driven studio exploring the boundaries of digital innovation.
 
-We explore the intersection of **Web3, blockchain, mobile applications, and software engineering** to build experiences that are practical, scalable, and designed around real-world needs.
+We transform complex challenges into purposeful products across **Web3, blockchain, mobile applications, and software engineering**.
 
-We believe the most powerful technology isn't the technology that looks the most complicated.
+Our philosophy is simple: technology should do more than impress. It should solve real problems, empower people, and unlock possibilities that didn't exist before.
 
-It's the technology that makes the impossible practical.
+We combine ambitious thinking with practical engineering to build digital experiences designed for real-world impact.
 
-> **Think beyond convention. Engineer with intention. Build for impact.**
+> *Think beyond convention. Engineer with intention. Build beyond the obvious.*
 
 ---
 
 <div align="center">
 
-## `02 / OUR DOMAINS`
+## ⟡ 02 — OUR DIMENSIONS
 
-*Three dimensions. One engineering mindset.*
+*Three domains. One relentless engineering mindset.*
 
 </div>
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-<div align="center">
+<img src="https://img.shields.io/badge/DIMENSION_01-8B5CF6?style=for-the-badge" alt="Dimension 01"/>
 
-<img src="https://img.shields.io/badge/01-8B5CF6?style=for-the-badge&logoColor=white" alt="Domain 01"/>
+### ◈ Web3 & Blockchain
 
-### WEB3 / BLOCKCHAIN
-
-</div>
-
-Decentralized architectures, blockchain-powered applications, and digital experiences built around emerging technologies.
+Decentralized architectures and blockchain-powered applications that explore new models of digital ownership, connectivity, and innovation.
 
 **FOCUS**
 
-- Decentralized applications
-- Blockchain ecosystems
-- Emerging digital infrastructure
+Decentralized applications · Blockchain systems · Web3 experiences
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-<div align="center">
+<img src="https://img.shields.io/badge/DIMENSION_02-06B6D4?style=for-the-badge" alt="Dimension 02"/>
 
-<img src="https://img.shields.io/badge/02-06B6D4?style=for-the-badge&logoColor=white" alt="Domain 02"/>
+### ◈ Mobile Experiences
 
-### MOBILE / EXPERIENCE
-
-</div>
-
-Thoughtful mobile products that bring useful functionality to people's fingertips through intuitive design and robust engineering.
+Thoughtfully engineered mobile products that make technology more intuitive, accessible, and useful in everyday life.
 
 **FOCUS**
 
-- Android and iOS
-- Cross-platform development
-- User-centered experiences
+Android · iOS · Cross-platform development
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-<div align="center">
+<img src="https://img.shields.io/badge/DIMENSION_03-6366F1?style=for-the-badge" alt="Dimension 03"/>
 
-<img src="https://img.shields.io/badge/03-6366F1?style=for-the-badge&logoColor=white" alt="Domain 03"/>
+### ◈ Software Systems
 
-### SOFTWARE / SYSTEMS
-
-</div>
-
-Practical software engineered to address complex challenges with clarity, maintainability, and room to grow.
+Purpose-built software that turns complicated business and industry challenges into practical, maintainable digital solutions.
 
 **FOCUS**
 
-- Application engineering
-- Backend and data systems
-- Scalable software architecture
+Application engineering · Backend systems · Scalable architecture
 
 </td>
 </tr>
@@ -123,43 +112,43 @@ Practical software engineered to address complex challenges with clarity, mainta
 
 <div align="center">
 
-## `03 / THE ENGINEERING DNA`
+## ⟡ 03 — THE ENGINEERING CODE
 
-### A philosophy built into every line of code.
+### Principles over hype. Substance over noise.
 
 </div>
 
-| PRINCIPLE | DIRECTIVE |
-|:---|:---|
-| `01` — Problem First | Understand the problem before selecting the stack. |
-| `02` — Purposeful Engineering | Every technical decision should serve a reason. |
-| `03` — Built to Evolve | Favor maintainability, reliability, and scalability. |
-| `04` — Innovation with Intent | Create meaningful value instead of unnecessary complexity. |
-| `05` — User at the Center | Technology matters most when it works for people. |
+| DIRECTIVE | OUR STANDARD |
+|:--|:--|
+| `01 / UNDERSTAND` | Solve the actual problem before selecting the technology. |
+| `02 / ENGINEER` | Build with clarity, precision, and purpose. |
+| `03 / EVOLVE` | Design for maintainability, reliability, and growth. |
+| `04 / INNOVATE` | Explore emerging technologies when they create meaningful value. |
+| `05 / DELIVER` | Turn ambitious ideas into useful, real-world experiences. |
 
 ---
 
 <div align="center">
 
-## `04 / THE TECHNOLOGY MATRIX`
+## ⟡ 04 — TECHNOLOGY MATRIX
 
-*The tools are instruments. Engineering is the differentiator.*
+*Our tools evolve. Our engineering mindset remains.*
 
-### LANGUAGES
+### LANGUAGES & DEVELOPMENT
 
-<img src="https://skillicons.dev/icons?i=js,python,c,cpp,cs,java,kotlin&theme=dark" alt="JavaScript, Python, C, C++, C Sharp, Java, Kotlin" />
+<img src="https://skillicons.dev/icons?i=js,python,c,cpp,cs,java,kotlin&theme=dark" alt="JavaScript, Python, C, C++, C Sharp, Java and Kotlin"/>
 
-### FRONTEND / MOBILE
+### FRONTEND & MOBILE
 
-<img src="https://skillicons.dev/icons?i=react,angular,threejs&theme=dark" alt="React, Angular, Three.js" />
+<img src="https://skillicons.dev/icons?i=react,angular,threejs&theme=dark" alt="React, Angular and Three.js"/>
 
-### CLOUD / INFRASTRUCTURE
+### CLOUD & INFRASTRUCTURE
 
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,docker&theme=dark" alt="AWS, Azure, Google Cloud, Cloudflare, Docker" />
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,docker&theme=dark" alt="AWS, Azure, Google Cloud, Cloudflare and Docker"/>
 
-### DATA / BACKEND
+### DATA & BACKEND
 
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,firebase,supabase&theme=dark" alt="PostgreSQL, MongoDB, MySQL, SQLite, Firebase, Supabase" />
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,firebase,supabase&theme=dark" alt="PostgreSQL, MongoDB, MySQL, SQLite, Firebase and Supabase"/>
 
 </div>
 
@@ -167,21 +156,22 @@ Practical software engineered to address complex challenges with clarity, mainta
 
 <div align="center">
 
-## `05 / THE BUILD LOG`
+## ⟡ 05 — TRANSMISSION LOG
 
-### Every repository is a step forward.
+### The work speaks through the code.
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=NovotiaGng&show_icons=true&hide_border=true&bg_color=0D0B18&title_color=A78BFA&text_color=D4D4E8&icon_color=67E8F9&rank_icon=github" alt="Novotia Labs GitHub statistics"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovotiaGng&layout=compact&hide_border=true&bg_color=0D0B18&title_color=A78BFA&text_color=D4D4E8" alt="Most used programming languages"/>
+<a href="https://github.com/NovotiaGng?tab=repositories">
+<img src="https://github-readme-stats.vercel.app/api?username=NovotiaGng&show_icons=true&hide_border=true&bg_color=0D0B18&title_color=A78BFA&text_color=D4D4E8&icon_color=67E8F9&rank_icon=github" width="49%" alt="Novotia Labs GitHub statistics"/>
+</a><a href="https://github.com/NovotiaGng?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovotiaGng&layout=compact&hide_border=true&bg_color=0D0B18&title_color=A78BFA&text_color=D4D4E8" width="49%" alt="GitHub language statistics"/></a>
 
 <br/><br/>
 
 <img width="75%" src="https://streak-stats.demolab.com?user=NovotiaGng&hide_border=true&background=0D0B18&ring=8B5CF6&fire=67E8F9&currStreakLabel=A78BFA&sideLabels=D4D4E8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=77778B" alt="GitHub contribution streak"/>
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/NovotiaGng?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-17102F?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Explore repositories"/>
+<img src="https://img.shields.io/badge/ACCESS_ALL_REPOSITORIES-17102F?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Browse repositories"/>
 </a>
 
 </div>
@@ -190,41 +180,40 @@ Practical software engineered to address complex challenges with clarity, mainta
 
 <div align="center">
 
-## `06 / THE NEXT CHAPTER`
+## ⟡ 06 — THE NEXT FRONTIER
 
-# The future doesn't build itself.
+# The universe is not the limit.
 
-Have a challenging problem, a bold product idea, or a concept worth bringing to life?
+Have an ambitious product idea, a complex technical challenge, or a vision worth bringing to life?
 
-We're interested in conversations with founders, startups, businesses, and builders who believe technology can do more.
+We welcome conversations with founders, startups, businesses, and builders ready to create something meaningful.
 
-**Let's turn ambitious ideas into purposeful engineering.**
+**Let's engineer the extraordinary.**
 
 <br/>
 
 <a href="mailto:novotiaproducts@gmail.com">
-<img src="https://img.shields.io/badge/LET%27S_BUILD_TOGETHER-8B5CF6?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Contact Novotia Labs"/>
-</a>
-&nbsp;
-<a href="https://github.com/NovotiaGng">
-<img src="https://img.shields.io/badge/ENTER_THE_CODEBASE-0D0B18?style=for-the-badge&logo=github&logoColor=67E8F9" alt="Visit GitHub"/>
+<img src="https://img.shields.io/badge/LET%27S_BUILD_THE_FUTURE-8B5CF6?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Start a project with Novotia Labs"/>
 </a>
 
 <br/><br/>
 
+<a href="https://github.com/NovotiaGng">
+<img src="https://img.shields.io/badge/GITHUB-0B0B16?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub"/>
+</a>
 <a href="https://www.linkedin.com/in/arnav-puggal/">
-<img src="https://img.shields.io/badge/LINKEDIN-17102F?style=flat-square&logo=linkedin&logoColor=67E8F9" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LINKEDIN-0B0B16?style=flat-square&logo=linkedin&logoColor=67E8F9" alt="LinkedIn"/>
 </a>
 <a href="https://www.instagram.com/arnavpuggal/">
-<img src="https://img.shields.io/badge/INSTAGRAM-17102F?style=flat-square&logo=instagram&logoColor=E879F9" alt="Instagram"/>
+<img src="https://img.shields.io/badge/INSTAGRAM-0B0B16?style=flat-square&logo=instagram&logoColor=E879F9" alt="Instagram"/>
 </a>
 
 <br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,45:4326A8,100:05060B&height=120&section=footer" alt="Violet and cyan wave footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05060B,45:4326A8,100:06B6D4&height=120&section=footer" alt="Novotia Labs cosmic footer"/>
 
 <sub>© NOVOTIA LABS · BUILDING WITH PURPOSE. ENGINEERING FOR IMPACT.</sub>
 
-<sub>THE LIMIT IS NOT THE TECHNOLOGY. IT IS THE IMAGINATION BEHIND IT.</sub>
+<sub>THE NEXT FRONTIER IS BUILT, NOT PREDICTED.</sub>
 
 </div>
