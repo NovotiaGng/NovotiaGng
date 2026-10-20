@@ -1,24 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 12" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 20" fill="none">
   <defs>
-    <linearGradient id="divider-left" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0%" stop-color="#0B0D1A" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#8B5CF6" stop-opacity="0.2"/>
-      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.8"/>
-      <stop offset="80%" stop-color="#8B5CF6" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#0B0D1A" stop-opacity="0"/>
+    <linearGradient id="divLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0"/>
     </linearGradient>
-    <filter id="line-glow">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+    <filter id="dglow">
+      <feGaussianBlur stdDeviation="1" result="b"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <!-- Central diamond -->
-  <polygon points="400,1 404,6 400,11 396,6" fill="#67E8F9" opacity="0.9" filter="url(#line-glow)"/>
-  <!-- Left beam -->
-  <line x1="50" y1="6" x2="393" y2="6" stroke="url(#divider-left)" stroke-width="0.8" filter="url(#line-glow)"/>
-  <!-- Right beam -->
-  <line x1="407" y1="6" x2="750" y2="6" stroke="url(#divider-left)" stroke-width="0.8" filter="url(#line-glow)"/>
+  <!-- Main glowing line -->
+  <line x1="40" y1="10" x2="860" y2="10" stroke="url(#divLine)" stroke-width="1.2" filter="url(#dglow)"/>
+  <!-- Central diamond accent -->
+  <polygon points="450,5 455,10 450,15 445,10" fill="#67E8F9" filter="url(#dglow)"/>
+  <!-- Accent micro-dots -->
+  <circle cx="430" cy="10" r="1.5" fill="#8B5CF6" opacity="0.8"/>
+  <circle cx="470" cy="10" r="1.5" fill="#8B5CF6" opacity="0.8"/>
 </svg>

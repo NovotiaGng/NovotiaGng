@@ -1,48 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" fill="none">
   <defs>
-    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05060B"/>
-      <stop offset="35%" stop-color="#1A0F3C"/>
-      <stop offset="65%" stop-color="#0F2847"/>
-      <stop offset="100%" stop-color="#05060B"/>
-    </linearGradient>
     <linearGradient id="footer-line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#05060B" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#8B5CF6" stop-opacity="0.6"/>
       <stop offset="50%" stop-color="#67E8F9" stop-opacity="0.9"/>
-      <stop offset="80%" stop-color="#E879F9" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#05060B" stop-opacity="0"/>
+      <stop offset="75%" stop-color="#E879F9" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="footer-orb" cx="50%" cy="0%" r="60%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#05060B" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="footer-glow">
-      <feGaussianBlur stdDeviation="1" result="blur"/>
+    <filter id="fglow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <!-- Background -->
-  <rect width="1200" height="140" fill="url(#footer-bg)"/>
-  <rect width="1200" height="140" fill="url(#footer-orb)"/>
-  <!-- Top luminous line -->
-  <line x1="0" y1="2" x2="1200" y2="2" stroke="url(#footer-line)" stroke-width="1" filter="url(#footer-glow)"/>
-  <!-- Scattered stars -->
-  <circle cx="100" cy="30" r="0.8" fill="#67E8F9" opacity="0.6"/>
-  <circle cx="300" cy="50" r="0.5" fill="#C4B5FD" opacity="0.4"/>
-  <circle cx="500" cy="25" r="0.7" fill="#FFFFFF" opacity="0.5"/>
-  <circle cx="700" cy="45" r="0.6" fill="#67E8F9" opacity="0.5"/>
-  <circle cx="900" cy="35" r="0.8" fill="#E879F9" opacity="0.4"/>
-  <circle cx="1100" cy="55" r="0.5" fill="#C4B5FD" opacity="0.3"/>
-  <circle cx="200" cy="70" r="0.4" fill="#FFFFFF" opacity="0.3"/>
-  <circle cx="600" cy="60" r="0.6" fill="#67E8F9" opacity="0.4"/>
-  <circle cx="1000" cy="20" r="0.5" fill="#A78BFA" opacity="0.5"/>
-  <circle cx="150" cy="90" r="0.3" fill="#E879F9" opacity="0.3"/>
-  <circle cx="850" cy="75" r="0.4" fill="#67E8F9" opacity="0.3"/>
+  <!-- Top luminous horizon line -->
+  <line x1="100" y1="10" x2="900" y2="10" stroke="url(#footer-line)" stroke-width="1" filter="url(#fglow)"/>
+  <circle cx="500" cy="10" r="2.5" fill="#67E8F9" filter="url(#fglow)"/>
+
   <!-- Footer text -->
-  <text x="600" y="85" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="6" fill="#77778B">© NOVOTIA LABS · ENGINEERING THE UNIMAGINED</text>
-  <text x="600" y="110" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="300" letter-spacing="4" fill="#4A4A5C">THE NEXT FRONTIER IS BUILT, NOT PREDICTED.</text>
+  <text x="500" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', monospace" font-size="11" font-weight="500" letter-spacing="5" fill="#94A3B8">© NOVOTIA LABS · BUILDING WITH PURPOSE · ENGINEERING FOR IMPACT</text>
+  <text x="500" y="64" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="400" letter-spacing="3" fill="#64748B">THE NEXT FRONTIER IS BUILT, NOT PREDICTED.</text>
 </svg>
