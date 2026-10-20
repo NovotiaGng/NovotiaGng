@@ -1,0 +1,21 @@
+{
+  "name": "novotiagng",
+  "version": "1.0.0",
+  "description": "Novotia Labs — Official Profile & Futuristic Technology Brand Architecture",
+  "scripts": {
+    "dev": "npm --prefix site run dev",
+    "build": "npm --prefix site run build",
+    "preview": "npm --prefix site run preview"
+  },
+  "keywords": [
+    "novotia-labs",
+    "web3",
+    "blockchain",
+    "mobile",
+    "software-engineering",
+    "threejs",
+    "futuristic"
+  ],
+  "author": "Novotia Labs",
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" fill="none">
+  <defs>
+    <linearGradient id="wordmark-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="35%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="75%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="sub-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <text x="400" y="62" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="18" fill="url(#wordmark-gradient)" filter="url(#glow)">NOVOTIA LABS</text>
+  <line x1="200" y1="82" x2="600" y2="82" stroke="url(#sub-gradient)" stroke-width="0.5" opacity="0.5"/>
+  <text x="400" y="105" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="8" fill="url(#sub-gradient)">ENGINEERING THE UNIMAGINED</text>
+</svg>

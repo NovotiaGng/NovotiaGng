@@ -1,0 +1,17 @@
+{
+  "name": "novotia-labs-portal",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Novotia Labs — Futuristic 3D Cosmic Experience & Technology Portal",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}
