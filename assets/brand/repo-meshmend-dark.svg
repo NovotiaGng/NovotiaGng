@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="588" height="176" viewBox="0 0 588 176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img"><title>MeshMend on GitHub</title><defs><style>
+.m{transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{animation:spin var(--T,30s) linear infinite}
+.rev{animation-direction:reverse}
+@keyframes sig{0%{transform:scale(1);opacity:.7}100%{transform:scale(var(--S,3.4));opacity:0}}
+.sig{animation:sig 4.2s cubic-bezier(.16,1,.3,1) infinite}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:1}}
+.breathe{animation:breathe 3s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+.nudge{animation:nudge 1.8s ease-in-out infinite}
+@keyframes rise{from{transform:translateY(110px);opacity:0}to{transform:none;opacity:1}}
+.rise{animation:rise .9s cubic-bezier(.16,1,.3,1) var(--d,0s) both}
+@keyframes draw{0%{stroke-dashoffset:1;stroke-opacity:1}70%{stroke-dashoffset:0;stroke-opacity:1}100%{stroke-dashoffset:0;stroke-opacity:0}}
+@keyframes fillin{from{fill-opacity:0}to{fill-opacity:1}}
+.wm{stroke-dasharray:1;stroke-opacity:0;stroke-width:2.2;animation:draw 1.5s cubic-bezier(.4,0,.2,1) var(--d,0s) both,fillin .7s ease-out calc(var(--d,0s) + .9s) both}
+@keyframes ecg{from{stroke-dashoffset:22}to{stroke-dashoffset:-78}}
+.ecg{animation:ecg 3s linear infinite}
+@keyframes marq{to{transform:translateX(var(--W))}}
+.marq{animation:marq var(--T,34s) linear infinite}
+@keyframes pop{from{opacity:.35;transform:scale(.78)}to{opacity:1;transform:none}}
+.pop{animation:pop .6s cubic-bezier(.16,1,.3,1) var(--d,0s) both}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.float{animation:float 4s ease-in-out var(--d,0s) infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></defs><rect width="588" height="176" rx="16" fill="#161b22"/><text x="32" y="82" font-size="34" font-weight="800" letter-spacing="-.5" fill="#e6edf3">MeshMend</text><text x="32" y="116" font-size="18" fill="#8b949e">github.com/NovotiaGng/MeshMend</text><g transform="translate(516 132)"><path class="nudge" d="M0 0H20M12 -8L20 0L12 8" fill="none" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
